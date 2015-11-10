@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+  <name>playn-tests-java-lwjgl</name>
+  <comment>Contains visual tests of PlayN functionality. Note: this is not where unit tests should be
+    added. Those should go directly in &quot;core&quot;, or the appropriate backend module. NO_M2ECLIPSE_SUPPORT: Project files created with the maven-eclipse-plugin are not supported in M2Eclipse.</comment>
+  <projects>
+    <project>playn-tests-core</project>
+    <project>playn-scene</project>
+    <project>playn-core</project>
+    <project>playn-tests-assets</project>
+    <project>playn-java-lwjgl</project>
+    <project>playn-java-base</project>
+  </projects>
+  <buildSpec>
+    <buildCommand>
+      <name>org.eclipse.jdt.core.javabuilder</name>
+    </buildCommand>
+  </buildSpec>
+  <natures>
+    <nature>org.eclipse.jdt.core.javanature</nature>
+  </natures>
+</projectDescription>
